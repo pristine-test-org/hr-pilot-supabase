@@ -1,0 +1,11 @@
+# Netlify hosts the static build; Supabase is the whole backend.
+# Set VITE_SUPABASE_URL and VITE_SUPABASE_PUBLISHABLE_KEY in Site configuration > Environment variables.
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+# Single-page app: every path is served index.html and React Router takes over.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
