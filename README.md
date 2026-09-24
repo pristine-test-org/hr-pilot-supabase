@@ -132,3 +132,5 @@ supabase/
 scripts/check-rls.ts        RLS checks through the API
 netlify.toml                Netlify build + SPA fallback
 ```
+
+<!-- preflight -->
