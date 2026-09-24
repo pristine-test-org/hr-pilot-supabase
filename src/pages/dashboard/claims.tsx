@@ -44,7 +44,7 @@ export default function ClaimsPage() {
       <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Claims</h1>
-          <p className="mt-1 text-muted-foreground">
+          <p className="mt-1 w-48 truncate text-muted-foreground">
             Submit expense claims for food, travel, medical and more.
           </p>
         </div>
