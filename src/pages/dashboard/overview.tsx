@@ -80,7 +80,7 @@ export default function DashboardOverviewPage() {
         <h1 className="text-2xl font-semibold tracking-tight">
           Welcome back, {user.name.split(" ")[0]}
         </h1>
-        <p className="mt-1 text-muted-foreground">
+        <p className="mt-1 text-gray-200">
           Here&apos;s what&apos;s happening with your HR account today.
         </p>
       </div>
