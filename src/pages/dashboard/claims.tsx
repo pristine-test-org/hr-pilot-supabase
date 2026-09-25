@@ -41,7 +41,7 @@ export default function ClaimsPage() {
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
+      <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center max-[479px]:w-[560px] max-[479px]:flex-row">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Claims</h1>
           <p className="mt-1 text-muted-foreground">
